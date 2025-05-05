@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVJ Restaurant</title>
+</head>
+
+<style>
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:color-mix(in srgb, #ff002b 50%, #ffffff 50%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:brown;
+    border-radius: 10px;
+}
+
+.menu{
+    background-color:rgb(221, 152, 62);
+    align-items: center;
+    color: rgb(146, 89, 114);
+    padding: 25px;
+    border-radius: 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.footer{
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #0f1110;
+    font-weight: bold;
+}
+
+.offer-txt{
+    color: rgba(195, 64, 64, 0.47);
+}
+.hours{
+    width: 300px;
+    height: 80px;
+}
+
+.banner {
+    text-align: center;
+    background-image: url("Rest background.jpg");
+    padding: 10px 40px;
+    color: #4f9797;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(52, 179, 162);
+}
+
+.feature {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: rgb(132, 171, 169);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(177, 98, 191);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+p {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
+
+.copy{
+    margin-left: auto
+}
+
+.hyperlink{
+    color: rgb(130, 121, 173);
+}
+    
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="AVJ RESTAURANT Logo">
+            <h1 style="font-family: 'Times New Roman', Times, serif;"> AVJ </h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="banner" style="background-image: url(homepage.jpg)";>         
+             <h2 class="offer-txt style="font-family: 'Times New Roman', Times, serif;">Where every flavor tells a story</h2>
+            <h2 class="offer-txt" style="font-family: 'Times New Roman', Times, serif;">"It's [food] o'clock " WELCOME " Take a seat, grab a treat -THE INDIAN RESTAURANT! </h2>
+            
+            <p class = 'offer-txt' style="font-size: large ; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">The World's No. 1 high quality Indian Restaurant.Take back to memories
+                To eat is a necessity, but to eat intelligently is an art</p>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h3>Today's menu</h3>
+                <img src="food.png"Our New Menu">
+                <p> Today’s menu offers a variety of dishes made with fresh ingredients. Enjoy flavorful starters, delicious main courses, indulgent desserts, chef’s specials, and refreshing drinks. 
+                    Every bite is crafted to delight your taste buds!</p>
+                
+            </div>
+            <div class="feature">
+                <h3>Book a table</h3>
+                <img src="table.png" alt="Book a table">
+                <p>Reserve your table at Fusion feast for a memorable dining experience. Whether it’s a dinner, celebration, or casual gathering, enjoy our warm ambiance and delicious flavors.
+                     Book now for the perfect meal!!</p>
+                
+            </div>
+            <div class="feature">
+                <h3>Opening timings</h3>
+                <img src="timing.png" class="hours" alt="Opening Hours">
+                <p> Visit us during our convenient hours</p>
+                <ul>
+                    Monday - Friday: 08:00 AM - 08:00 AM <br>
+                    Saturday: 08:00 AM - 8:00 PM <br>
+                    Sunday: 08:00 AM - 08:00 PM <br>
+                </ul>
+                <p> A place for hungry people....!</p>
+            </div>
+        </section>
+        <footer>
+            <div class="logo">
+                <img src="logo.png" class="footer" alt="AVJ Restaurant Logo">
+            </div>
+            
+                <palign="center" class="copy">&copy; Copyright Fusion feast</p>
+
+            <h3align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; ">
+                Developed and designed by ANUMITHA MR</h3>
+        </footer>
+    </main>
+</body>
+</html>
